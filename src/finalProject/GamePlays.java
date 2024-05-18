@@ -11,10 +11,7 @@ public class GamePlays {
 	}
 	
 	//checking for the length of playable card(s) 
-	public static int compareSize(int size, ArrayList<Card> playerHand) {
-		
-		
-		
+	public static void compareSize(int size, ArrayList<Card> playerHand) {
 		
 		
 		/*
@@ -68,10 +65,4 @@ public class GamePlays {
 	}
 	
 	
-	
-	
-	public static void 
-	
-	
-
 }

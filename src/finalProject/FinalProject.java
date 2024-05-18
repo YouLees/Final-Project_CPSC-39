@@ -64,6 +64,16 @@ public class FinalProject {
 		
 		System.out.println("NPC 3 cards");
 		printCards(NPC3Cards);
+		
+		
+		//game starts
+		System.out.println("Start by making a play");
+		System.out.println("Please make you choice by typing the place of the cards");
+		System.out.println("EX: '1, 2, 3' or '1' ");
+		
+		//creating scanner for Iser's input:
+		Scanner userPlay = new Scanner(System.in);
+		
 	}
 		
 
@@ -113,6 +123,7 @@ public class FinalProject {
 		}
 	}
 	
+	//Displays player hand
 	public static void printCards(ArrayList<Card> playerHand) {
 		for(Card c: playerHand)
 			System.out.println(c);
