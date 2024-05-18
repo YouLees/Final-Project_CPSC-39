@@ -63,7 +63,7 @@ public class FinalProject {
 		
 		giveHand(NPC2Cards);
 		System.out.println("NPC 2 cards");
-		for(Card c: NPC1Cards)
+		for(Card c: NPC2Cards)
 			System.out.println(c);
 		
 		System.out.println();
@@ -72,7 +72,7 @@ public class FinalProject {
 		
 		giveHand(NPC3Cards);
 		System.out.println("NPC 3 cards");
-		for(Card c: NPC1Cards)
+		for(Card c: NPC3Cards)
 			System.out.println(c);
 		
 		System.out.println();
