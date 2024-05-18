@@ -44,68 +44,26 @@ public class FinalProject {
 		
 		//dealing the cards
 		giveHand(playerCards);
-		System.out.println("players cards");
-		for(Card c: playerCards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
-		
 		
 		giveHand(NPC1Cards);
-		System.out.println("NPC 1 cards");
-		for(Card c: NPC1Cards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
-		
 		
 		giveHand(NPC2Cards);
-		System.out.println("NPC 2 cards");
-		for(Card c: NPC2Cards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
-		
 		
 		giveHand(NPC3Cards);
-		System.out.println("NPC 3 cards");
-		for(Card c: NPC3Cards)
-			System.out.println(c);
 		
-		System.out.println();
-		System.out.println();
-		/*
+		//Displaying the cards
+		//Displaying NOCs cards for testing purposes
 		System.out.println("players cards");
-		for(Card c: playerCards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
+		printCards(playerCards);
 		
 		System.out.println("NPC 1 cards");
-		for(Card c: NPC1Cards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
+		printCards(NPC1Cards);
 		
 		System.out.println("NPC 2 cards");
-		for(Card c: NPC1Cards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
+		printCards(NPC2Cards);
 		
 		System.out.println("NPC 3 cards");
-		for(Card c: NPC1Cards)
-			System.out.println(c);
-		
-		System.out.println();
-		System.out.println();
-		*/
+		printCards(NPC3Cards);
 	}
 		
 
@@ -155,4 +113,12 @@ public class FinalProject {
 		}
 	}
 	
+	public static void printCards(ArrayList<Card> playerHand) {
+		for(Card c: playerHand)
+			System.out.println(c);
+		
+		System.out.println();
+		System.out.println();
+		
+	}
 }
