@@ -1,4 +1,8 @@
+//Using the Linkedlist java file from the linked list assignment
+
 package finalProject;
+
+
 //linkList2.java
 //demonstrates linked list
 //to run this program: C>java LinkList2App

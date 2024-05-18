@@ -65,13 +65,18 @@ public class Card {
 				+ cardPicture + "]";
 	}
 
+	
 	public boolean equals(Card cardToCompare) {
+		/*
 		System.out.println("comparing cards in equals");
 		System.out.println(this.cardName + " to " + cardToCompare.cardName);
 		System.out.println(this.cardSuit + " to " + cardToCompare.cardSuit);
+		*/
+		
 
 		return this.cardSuit.equals(cardToCompare.getCardSuit()) &&
 				this.getCardName().equals(cardToCompare.getCardName());
 	}	
+	
 	
 }//end class
